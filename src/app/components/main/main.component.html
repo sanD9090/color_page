@@ -1,0 +1,19 @@
+<div class="whole" [style.background-color]="mycolor">
+  <div class="main">
+    <button mat-raised-button color="primary" (click)="red()" style="background-color: #ff0000">
+     Red
+    </button>
+    <button mat-raised-button color="primary" (click)="green()" style="background-color: #008000">
+      Green
+    </button>
+    <button mat-raised-button color="primary" (click)="blue()" style="background-color: #0000ff">
+      Blue
+    </button>
+    <button mat-raised-button color="primary" (click)="purple()" style="background-color: #800080">
+      Purple
+    </button>
+  </div>
+  <div class="field">
+    <textarea name="colorcode" cols="30" rows="5">{{mycolor}}</textarea>
+  </div>
+</div>
